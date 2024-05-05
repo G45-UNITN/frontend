@@ -3,7 +3,7 @@ import { StyledTitle, StyledSubTitle, Avatar, StyledButton, ButtonGroup } from "
 //logo
 import Logo from "./../assets/logo.png";
 
-
+console.log("qui");
 const Home = () => {
     return (
         <div>
