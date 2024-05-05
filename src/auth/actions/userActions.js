@@ -2,9 +2,9 @@ import axios, {request} from "axios";
 import {sessionService} from "redux-react-session";
 
 //the remote endpoint and local
-const remoteUrl = "http://localhost:4500/";
+const remoteUrl = "https://agile-tundra-48116-00eb7327fba8.herokuapp.com/";
 const localUrl = "http://localhost:4500/";
-const currentUrl = localUrl;
+const currentUrl = remoteUrl;
 
 
 export const loginUser = (credentials, navigate, setFieldError, setSubmitting) => {
